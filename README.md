@@ -2,7 +2,7 @@
 
 ## Create local repository
 
-###  *Make new directory and init git inside it
+###  1) Make new directory and init git inside it
 
 	```bash
 	mkdir new-directory
@@ -16,13 +16,13 @@
 	rm -r new-directory
 	```
 
-###  *Bond your local repository with remote one
+###  2) Bond your local repository with remote one
 
 	```bash
 	git remote add origin [your link ssh or https]
 	```
 
-### *If you prefer ssh you can generate key and add it in the github or gitlab
+### 3) If you prefer ssh you can generate key and add it in the github or gitlab
 	
 	```bash
 	ssh-keygen -t ed25519
